@@ -1,0 +1,24 @@
+»зменение пользовател€ в git в локальном репозитории 
+1 git config --global user.name "name" 
+2 git config --global user.email "email"
+3 создание ssh key 
+ssh-keygen -t rsa -C "name git user"
+4 ѕереход по пути где создан ssh key (скрытый файл) id_rsa.pub, копируем
+5 Settings git - SSH and GBG keys - new SSH key - past key - add 
+6 создать git repo с readme
+7 ѕроходим в созданный репозиторий, копируем SSH ссылку
+8 git clone ссылка repo SSH 
+9 cd repo lokal
+10 cat > names.txt 
+- Vika 
+- Dima 
+- Lena 
+Ctrl C
+11 git add .
+12 git commit -m "add names"
+13 git push
+
+ѕароль к аккаунту 
+Settings git - developer settings - personal access tokens - token classic
+
+git fetch - проверка измениний в репозитории  
